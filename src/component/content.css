@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card{
+    background-color: red;
+    display: block;
+    border-left: 5px solid #007bff;
+    transform: translateY(20px);
+    opacity: 0;
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.card:nth-child(1){
+    border-left: 5px solid red;
+}
+
+.content{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(175, 175, 175);
+    align-items: center;
+}
+
+.content .text{
+    margin: 5px;
+    max-width: 50%;
+    font-size: 20px;
+}
+
+.text .a-content{
+    margin: 3px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(175, 175, 175);
+}
+
+.image img{
+    width: 80%;
+    margin: 3px;
+}

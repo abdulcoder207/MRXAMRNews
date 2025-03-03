@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    margin: 0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    background-color: #333;
+}
+
+.link ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.link ul li {
+    margin-left: 20px;
+}
+
+.link ul li .a{
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.a:hover {
+    border-bottom: 2px solid red;
+}
+
+@media screen and (max-width: 400px) {
+    .navbar{
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+
+    .link ul li .a{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .navbar{
+        font-size: 10px;
+    }
+}
