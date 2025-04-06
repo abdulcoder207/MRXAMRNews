@@ -1,7 +1,7 @@
 .container-about {
     padding: 20px;
     text-align: center;
-    background-color: #00f320;
+    background-color: #79ffe1;
     border-left: 10px solid #007bff;
     /* color: white; */
     border-radius: 10px;
@@ -31,17 +31,17 @@
 
 .question-about {
     margin-top: 30px;
-    text-align: center;
+    text-align: left;
 }
 
 .question-about details {
-    background: #209600;
+    background: #57ff28;
     padding: 10px;
     margin: 10px auto;
     width: 80%;
     border-radius: 8px;
     cursor: pointer;
-    color: #ddd;
+    color: #121211;
 }
 
 .question-about summary {
